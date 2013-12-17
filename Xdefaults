@@ -1,0 +1,69 @@
+!-----XFT-----------------!
+
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+!-----------------------------------------------------------------------!
+! URXVT - Settings
+
+
+URxvt*scrollColor:                      #121212
+URxvt*geometry:                         50x10
+URxvt*scrollBar:                        false
+URxvt*saveLines:                        5555
+URxvt*cursorBlink:                      false
+URxvt.cursorUnderline:                  true
+URxvt.perl-ext-common:                  default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:              firefox
+URxvt.url-select.underline:             true
+URxvt.keysym.M-u:                       perl:url-select:select_next
+URxvt.keysym.M-Escape:                  perl:keyboard-select:activate
+URxvt.keysym.M-s:                       perl:keyboard-select:search
+URxvt*scrollTtyOutput:                  false
+URxvt*scrollWithBuffer:                 false
+URxvt*scrollTtyKeypress:                false
+URxvt*borderLess:                       false
+!URxvt*font:                             xft:Source Code Pro:pixelsize=10
+URxvt*font:                             xft:terminus:pixelsize=10:autohint=true:hinting=true
+URxvt*boldFont:                         xft:terminus:bold:pixelsize=10:autohint=true:hinting=true
+URxvt*italicFont:                       xft:terminus:italic:pixelsize=10:autohint=true:hinting=true
+URxvt*bolditalicFont:                   xft:terminus:bold:italic:pixelsize=10:autohint=true:hinting=true
+!URxvt*font:                             xft:neep:pixelsize=7.5
+URxvt.underlineURLs:                    true
+URxvt.letterSpace:                      0
+URxvt*loginShell:                       false
+
+! -- Colours -- !
+!#include "/home/holmes/.colors/defaults"
+!#include "/home/holmes/.colors/dark"
+!#include "/home/holmes/.colors/butter"
+#include "/home/holmes/.colors/jellybeans"
+!#include "/home/holmes/.colors/franksinistra"
+!#include "/home/holmes/.colors/invisibone"
+!#include "/home/holmes/.colors/greenie"
+!#include "/home/holmes/.colors/zenburn"
+!#include "/home/holmes/.colors/soft"
+!#include "/home/holmes/.colors/old"
+!#include "/home/holmes/.colors/rab"
+!#include "/home/holmes/.colors/naesk"
+!#include "/home/holmes/.colors/saint"
+!#include "/home/holmes/.colors/molokai"
+!#include "/home/holmes/.colors/ancient"
+!#include "/home/holmes/.colors/kasugano"
+!#include "/home/holmes/.colors/lol"
+!#include "/home/holmes/.colors/blackburn"
+!#include "/home/holmes/.colors/blackgum"
+!#include "/home/holmes/.colors/oblivious"
+!#include "/home/holmes/.colors/bright"
+!#include "/home/holmes/.colors/deep"
+!#include "/home/holmes/.colors/magenta"
+!#include "/home/holmes/.colors/charlie_brown"
+!#include "/home/holmes/.colors/jancuk"
+!#include "/home/holmes/.colors/clear"
+!#include "/home/holmes/.colors/nostalgia"
+!#include "/home/holmes/.colors/pastel"
+!#include "/home/holmes/.colors/longbow"
